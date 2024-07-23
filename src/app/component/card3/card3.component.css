@@ -1,0 +1,153 @@
+.cardPrincipal {
+    border-radius: 8px;
+    background-color: #DFE4E8;
+    width: 20.9vw;
+    height: 25vh;
+}
+
+.alignTitle{
+    display: flex;
+    align-items: center;
+    justify-content:space-around
+}
+
+.text{
+    color: #00437A;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+
+.buttonSelect{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-left: 25px;
+    cursor: pointer;
+}
+  
+.align{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.subCard {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 16px; 
+    width: 9vw;  
+    height: 17vh;
+    margin: 10px;
+}
+  
+mat-card-header {
+    color: #000000;
+    font-size: 18px;
+}
+  
+mat-card-content {
+    font-size: 70px; 
+    font-weight: bold;
+    margin-top: 20%;
+    color: #000000;
+}
+
+mat-card-footer {
+    color: #000000;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 20%;
+}
+
+@media screen and (max-width: 1900px) {
+    .cardPrincipal {
+        width: 19vw;
+        height: 25vh;
+    }
+      
+    .subCard {
+        padding: 2px; 
+        width: 8vw; 
+        height: 15vh;
+        margin: 5px;
+    }
+
+    .text{
+        font-size: 15px;
+        margin: 0px;
+        padding-top: 10px;
+        padding-left: 16px;
+        padding-bottom: 7px;
+    }
+
+    .buttonSelect{
+        width: 7vw;
+        height: 4vh;
+        margin-right: 15px;
+        font-size: 11px;
+        outline: none;
+    }
+      
+    mat-card-header {
+        font-size: 12px;
+    }
+      
+    mat-card-content {
+        font-size: 30px; 
+        margin-top: 5%;
+    }
+      
+    mat-card-footer {
+        font-size: 10px;
+        margin-left: 15px;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .cardPrincipal {
+        width: 280px;
+        height: 180px;
+    }
+      
+    .subCard {
+        padding: 2px; 
+        width: 120px; 
+        height: 120px;
+        margin: 5px;
+    }
+
+    .buttonSelect{
+        width: 120px;
+        height: 27px;
+        font-size: 11px;
+        margin-right: 5px;
+    }
+
+    .text{
+        font-size: 18px;
+        margin: 0px;
+        padding-top: 10px;
+        padding-left: 16px;
+        padding-bottom: 7px;
+    }
+      
+    mat-card-header {
+        font-size: 12px;
+    }
+      
+    mat-card-content {
+        font-size: 40px; 
+        margin-top: 10px;
+    }
+      
+    mat-card-footer {
+        font-size: 10px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+}

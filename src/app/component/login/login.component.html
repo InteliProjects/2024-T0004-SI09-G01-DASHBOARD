@@ -1,0 +1,19 @@
+<div class="home">
+    <div class="homeLeft">
+        <img class="imgGeral" src="../../../assets/volks_fusca.svg" class="homeBackgroundImage">
+    </div>
+    <div class="homeRight">
+        <form class="formLogin">
+            <div class="align">
+                <img class="logo" src="../../../assets/Volkswagen_Logo.svg">
+                <p><b>Volkswagen</b><br>Das Auto.</p>
+            </div>
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu e-mail" autofocus="true" [(ngModel)]="email" id="user"/>
+            <label for="password">Senha</label>
+            <input type="password" [(ngModel)]="password"  placeholder="Digite sua senha" [type]="hide ? 'password' : 'text'"/>
+            <a href="/">Esqueci minha senha</a>
+            <input type="submit"  (click)="login()" value="Acessar" class="btn" />
+        </form>
+    </div>
+</div>

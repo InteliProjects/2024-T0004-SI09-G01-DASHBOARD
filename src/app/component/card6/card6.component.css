@@ -1,0 +1,47 @@
+.cardPrincipal {
+    border-radius: 8px;
+    background-color: #DFE4E8;
+    width: 42.2vw;
+    height: 45vh;
+}
+
+.text {
+    color: #00437A;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0px;
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1900px) {
+    .cardPrincipal {
+        width: 38.5vw;
+        height: 45vh;
+    }
+
+    .text{
+        font-size: 20px;
+        margin: 0px;
+        padding-top: 10px;
+        padding-left: 16px;
+        padding-bottom: 7px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .cardPrincipal {
+        width: 280px;
+        height: 180px;
+    }
+
+
+    .text {
+        font-size: 20px;
+        margin: 0px;
+        padding-top: 10px;
+        padding-left: 16px;
+        padding-bottom: 7px;
+    }
+}

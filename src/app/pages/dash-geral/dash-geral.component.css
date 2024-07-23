@@ -1,0 +1,37 @@
+*{
+    overflow: hidden;
+}
+
+.alignComponents {
+    display: flex;
+}
+
+.sidebar {
+    width: 12.3vw; 
+}
+
+.content {
+    width: 87.7svw; 
+}
+
+.alignCards {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.alignCards > * {
+    margin: 0 4px;
+}
+
+@media screen and (max-width: 1900px) {
+
+    .sidebar {
+        width: 17.5vw; 
+    }
+    
+    .content {
+        width: 82.5svw; 
+    }
+
+}

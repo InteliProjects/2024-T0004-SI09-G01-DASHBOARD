@@ -1,0 +1,36 @@
+<mat-toolbar>
+    <button mat-icon-button routerLink="/" class="firstButton">
+      <mat-icon>home</mat-icon>
+      <span>Home</span>
+    </button>
+    <button mat-icon-button routerLink="/visao-anual">
+      <mat-icon>dashboard</mat-icon>
+      <span>Diretoria</span>
+    </button>
+    <button mat-icon-button routerLink="/diretoria">
+      <mat-icon>calendar_today</mat-icon>
+      <span>Visão Anual</span>
+    </button>
+    <button mat-icon-button routerLink="/saude-mental">
+      <mat-icon>local_hospital</mat-icon>
+      <span>Saúde Mental</span>
+    </button>
+
+    <span class="spacer"></span>
+    <button mat-icon-button [matMenuTriggerFor]="userMenu" class="lastButton">
+      <mat-icon>account_circle</mat-icon>
+      <span>Usuário</span>
+      <mat-icon>keyboard_arrow_down</mat-icon>
+    </button>
+    <mat-menu #userMenu="matMenu">
+      <button class="menuDropdown">
+        <mat-icon>assignment</mat-icon>
+        <span>Perfil</span>
+      </button>
+      <button class="menuDropdown">
+        <mat-icon>exit_to_app</mat-icon>
+        <span>Sair</span>
+      </button>
+    </mat-menu>
+</mat-toolbar>
+  

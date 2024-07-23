@@ -1,0 +1,125 @@
+.cardPrincipal {
+    border-radius: 8px;
+    background-color: #DFE4E8;
+    width: 20.9vw;
+    height: 25vh;
+}
+
+.text{
+    color: #00437A;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0px;
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-bottom: 10px;
+}
+  
+.align{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.subCard {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 16px; 
+    width: 9vw;  
+    height: 17vh;
+    margin: 10px;
+}
+  
+mat-card-header {
+    color: #000000;
+    font-size: 18px;
+}
+  
+mat-card-content {
+    color: #538143;
+    font-size: 70px; 
+    font-weight: bold;
+    margin-top: 20%;
+}
+  
+mat-card-footer {
+    color: #000000;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 20%;
+}
+
+
+@media screen and (max-width: 1900px) {
+    .cardPrincipal {
+        width: 19vw;
+        height: 25vh;
+    }
+      
+    .subCard {
+        padding: 1px; 
+        width: 8vw;  
+        height: 15vh;
+        margin: 5px;
+    }
+
+    .text{
+        font-size:15px;
+        margin: 0px;
+        padding-top: 10px;
+        padding-left: 16px;
+        padding-bottom: 7px;
+    }
+      
+    mat-card-header {
+        font-size: 12px;
+    }
+      
+    mat-card-content {
+        font-size: 30px; 
+        margin-top: 5%;
+    }
+      
+    mat-card-footer {
+        font-size: 10px;
+        margin-left: 15px;
+        margin-top: 5%    }
+}
+
+
+@media screen and (max-width: 1025px) {
+    .cardPrincipal {
+        width: 280px;
+        height: 180px;
+    }
+      
+    .subCard {
+        padding: 2px; 
+        width: 120px; 
+        height: 120px;
+        margin: 5px;
+    }
+
+    .text{
+        font-size: 20px;
+        margin: 0px;
+        padding-top: 10px;
+        padding-left: 16px;
+        padding-bottom: 7px;
+    }
+      
+    mat-card-header {
+        font-size: 12px;
+    }
+      
+    mat-card-content {
+        font-size: 40px; 
+        margin-top: 10px;
+    }
+      
+    mat-card-footer {
+        font-size: 10px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+}

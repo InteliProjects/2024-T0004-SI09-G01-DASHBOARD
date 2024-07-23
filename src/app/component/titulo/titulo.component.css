@@ -1,0 +1,35 @@
+.cardMenu{
+    background-color: #f7f7f7;
+    justify-content: center;
+    margin: 20px auto;
+    height: 10vh;
+    width: 85vw;
+}
+
+.titleMenu{
+    color: #0082D6;
+    font-size: 30px;
+}
+
+.contentMenu{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1900px) {
+
+    .cardMenu{
+        margin: 20px auto;
+        height: 12vh;
+        width: 80vw;
+    }
+    
+    .titleMenu{
+        font-size: 22px;
+    }
+    
+    .contentMenu{
+        margin-top: 3px;
+        font-size: 14px;
+    }
+}

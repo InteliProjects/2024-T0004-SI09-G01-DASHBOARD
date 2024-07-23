@@ -1,0 +1,176 @@
+.menu-container {
+    background-color: rgba(223, 228, 232, 0.5);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 12.3vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+}
+
+.menu-container::-webkit-scrollbar {
+    width: 4px;
+}
+
+.menu-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.menu-container::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.logo-company-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.company-info {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.company-name {
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+.slogan {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+mat-icon {
+    margin-right: 8px;
+    color: #00437A;
+    font-size: 22px;
+}
+
+
+.sidebar-button,
+.search-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    padding: 13px;
+    margin-left: 25px;
+}
+
+.sidebar-button {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    height: 35px;
+}
+
+.search-button {
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    height: 45px;
+}
+
+.sidebar-button span {
+    font-size: 13px;
+}
+
+.icon-filter {
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.search {
+    border: none;
+    font-size: 10px;
+    outline: none;
+}
+
+.filter-margin {
+    margin: 15px;
+    display: flex; 
+    align-items: center;
+    text-align: center;
+}
+
+
+.menu-below {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+}
+
+mat-checkbox {
+    width: 100px;
+    height: 10px;
+}
+
+.filters {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.search-button span{
+    font-size: 13px;
+}
+
+.search-button input{
+    font-size: 13px;
+    width: 8vw;
+}
+
+
+@media screen and (max-width: 1900px) {
+
+    .menu-container {
+        width: 17.3vw;
+        height: 100vh;
+    }
+
+    mat-icon {
+        font-size: 18px;
+    }
+    
+    
+    .sidebar-button span {
+        font-size: 12px;
+    }
+
+    .search-button {
+        height: 30px;
+    }
+
+    .search-button span{
+        font-size: 12px;
+    }
+    
+    .search-button input{
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .menu-container {
+        display: none;
+    }
+}

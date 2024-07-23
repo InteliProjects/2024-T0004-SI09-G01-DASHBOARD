@@ -1,0 +1,129 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+mat-toolbar{
+    background-color: rgba(223, 228, 232, 0.5) ; 
+    box-shadow: 0px 4px 6px -3px rgba(0, 0, 0, 0.2), 0px 10px 14px 1px rgba(0, 0, 0, 0.14), 0px 4px 18px 3px rgba(0, 0, 0, 0.12);
+    height: 8vh;
+    width: 87.7vw;
+}
+
+span{
+    font-size: 15px;
+}
+  
+button {
+    min-width: 0;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-right: 25px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+button:hover {
+    background-color: #e6e6e6;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+}
+
+button.firstButton {
+    margin-left: 40px; 
+}
+  
+mat-icon {
+    margin-right: 8px;
+    color: #00437A;
+    font-size: 25px;
+}
+
+.lastButton{
+    margin-right: 40px; 
+}
+
+.menuDropdown{
+    min-width: 0;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-right: 25px;
+    height: 50px;
+    width: 120px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1900px) {
+
+    mat-toolbar{
+        height: 8vh;
+        width: 82.5vw;
+    }
+
+    
+    span{
+        font-size: 12px;
+    }
+      
+    button {
+        min-width: 0;
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        margin-right: 25px;
+        background-color: transparent;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    
+    button:hover {
+        background-color: #e6e6e6;
+        cursor: pointer;
+        border-radius: 8px;
+        width: 150px;
+        height: 50px;
+    }
+    
+    button.firstButton {
+        margin-left: 40px; 
+    }
+      
+    mat-icon {
+        margin-right: 8px;
+        color: #00437A;
+        font-size: 20px;
+    }
+    
+    .lastButton{
+        margin-right: 40px; 
+    }
+    
+    .menuDropdown{
+        min-width: 0;
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        margin-right: 25px;
+        height: 50px;
+        width: 120px;
+        border-radius: 8px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    mat-toolbar {
+        display: none;
+    }
+}
